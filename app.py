@@ -34,7 +34,7 @@ def load_diagnostic_artifacts():
 model, scaler, load_error = load_diagnostic_artifacts()
 
 # UI Header & Instructions
-st.title("🩺 Pathologist Portal: Instant PDF Report Analyzer:")
+st.title("🩺 Pathologist Portal: Instant PDF Report Analyzer")
 st.markdown("---")
 
 if load_error:
